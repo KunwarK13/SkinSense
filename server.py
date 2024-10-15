@@ -16,7 +16,7 @@ def get_gpu_memory():
 # print(get_gpu_memory())
 
 # Load your trained model
-model = tf.keras.models.load_model('/home/epsilon/Code/SkinSense/efficientnet_model.keras')
+model = tf.keras.models.load_model('efficientnet_model.keras')
 # print(get_gpu_memory())
 
 
