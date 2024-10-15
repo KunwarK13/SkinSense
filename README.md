@@ -88,7 +88,7 @@ The HAM10000 dataset consists of the following skin cancer types:
 
 EfficientNetV2 is used as the model architecture due to its high performance and efficiency. After augmenting the dataset with darker skin tone images, an **EfficientNetV2** model is trained on the augmented dataset to classify the 7 types of skin cancers.
 
-The model achieved **91% accuracy** on the test set.
+The model achieved **91% accuracy** on the test set. Due to the risk of stealing code and tuning parameters used for model training, we will not be putting the juypiter notebook used for training in this public repository.
 
 ---
 
