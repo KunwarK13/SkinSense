@@ -1,0 +1,61 @@
+/* App.css */
+@keyframes gradient {
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 100%;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #121212; /* Deep Charcoal */
+	color: #ffffff; /* White text for contrast */
+	font-family: Arial, sans-serif; /* Set a default font */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+}
+
+.app-container {
+	margin-top: 20px;
+	padding: 20px;
+	/* min-height: 100vh; */
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Center horizontally */
+	justify-content: start; /* Align to the top */
+}
+
+.title {
+	font-size: 4rem; /* Adjust as needed */
+	background: linear-gradient(
+		90deg,
+		#ff6f00,
+		#ff9e00,
+		#ff6f00,
+		#ffb700
+	); /* Updated gradient colors */
+	background-size: 300%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 3s ease infinite; /* Animation for the gradient effect */
+	/* margin-top: 50px; Add some margin to push it down from the top */
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.small {
+	font-size: 1.5em;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
